@@ -11,26 +11,15 @@ body {
   height: 100%;
 }
 
-
-.content {
-    /* color: rgb(240, 12, 160); */
-    width: 500px;
-    height: 500px;
-    /* border-width: 30px; */
-    /* solid dashed dotted double */
-    /* border-style: solid;
-    border-color: #ffdd44; */
-    /* border: 10px solid #f11; */
-    /* border-bottom: 20px solid #f11;
-    border-top: 10px solid #f99;
-    border-left: 15px double #979703;
-    border-right: 5px dashed #000; */
-    border-style: solid;
-    border-width: 10px;
-    /* border-radius: 50%; */
-    border-top-left-radius: 20px;
-    border-top-right-radius: 40px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 200px;
+.content-1,
+.content-2 {
+    background-color: #ef482f;
+    width: 300px;
+    height: 200px;
 }
 
+.content-1 {
+    padding: 20px;
+    border: 20px solid;
+    margin: 30px;
+}
