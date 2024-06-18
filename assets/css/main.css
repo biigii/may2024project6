@@ -8,7 +8,48 @@ body {
   height: 100%;
 }
 
-section.background {
-    background-color: #f99;
-    height: 100%;
+header {
+  background-color: rgb(238, 218, 131);
+  height: 150px;
+}
+
+nav {
+  text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* <a> is an inline element */
+/*  block element has width of 100% */
+/* inline element width is as much as its content */
+
+a {
+  background-color: #0578ec;
+  color: #fff;
+  /* as well as block and inline we also have inline-block */
+  /* display: inline-block; */
+  /* width: 200px;
+  height: 40px; */
+  /* margin left and right work on inline elements */
+  /* margin-left: 50px;
+  margin-right: 50px; */
+  /*  inline element do not accept margin top and bottom */
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+  /* padding-left: 50px;
+  padding-right: 50px; */
+  /* padding-top: 100px;
+  padding-bottom: 300px; */
+}
+
+/* this button is an anchor tag and is inline */
+.button {
+    background-color: #f11;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    /* display: block */
 }
