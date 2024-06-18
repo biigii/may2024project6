@@ -1,17 +1,6 @@
-/* .box-model{
-    width: 200px;
-    height: 300px;
-    margin: 20px;
-    padding: 10px;
-    border: 10px solid;
-} */
-
-/*  what selectors do we have: */
-/* type selectors like h1, class selector .content and id selector #content */
-/* * is called global selector */
-
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html,
@@ -19,28 +8,7 @@ body {
   height: 100%;
 }
 
-/* bu default html elements sizing = element + padding + border + margin */
-/* box-sizing */
-
-.content-1,
-.content-2 {
-    background-color: #ef482f;
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-}
-
-.content-1 {
-    padding: 20px;
-    border: 20px solid;
-    /* margin: 30px; */
-    /* box-sizing: content-box; */
-    /*  what border box does is that it includes border and padding within the content */
-    /* box-sizing: border-box; */
-}
-
-.content-2 {
-    padding: 5px;
-    border: 25px solid #f99;
-    /* box-sizing: border-box; */
+section.background {
+    background-color: #f99;
+    height: 100%;
 }
