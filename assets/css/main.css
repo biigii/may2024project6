@@ -1,0 +1,66 @@
+/* box model */
+/* .box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 10px solid;
+} */
+
+/* html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+} */
+
+html, 
+body {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    /* font-size: 15vw; */
+}
+
+.box {
+    background-color: #d710c3;
+    /* width: 50%;
+    height: 50%; */
+    /* vw view width and vh view height */
+    /* width: 50vw;
+    height: 50vh; */
+}
+
+/*  relative length = % vw vh em rem */
+
+.parent {
+    background-color: #f11;
+    /* width: 500px; */
+    width: 75%;
+    height: 700px;
+}
+
+.child {
+    /* width: 400px; */
+    width: 50%;
+    height: 75%;
+    background-color: #26dbeb;
+    overflow: hidden;
+}
+
+.grand-child {
+    overflow: scroll;
+    /* width: 200px; */
+    width: 75%;
+    height: 50%;
+    background-color: #26ed86;
+}
+
+p {
+    /* a block element has a default width of 100% */
+    /* height is as much as its content */
+    /* background-color: #efba0c; */
+}
